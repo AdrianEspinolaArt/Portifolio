@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.apresentacao {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-left: auto; /* Adicionado para centralizar horizontalmente */
+    margin-right: auto;
+    border: 1px solid rgb(65, 64, 64);
+    border-radius: 1rem;
+    margin-top: 50px ;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 10px;
+    gap: 40px;
+}
+
+span {
+    color: #5d266e; 
+}
+
+.apresentacao h2 {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    white-space: nowrap;
+}
+
+.imagem{
+    border: 2px solid  #5d266e;
+    border-radius: 1.5rem;
+    height: 282px;
+    
+
+}
+
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+
+
+.imagem img {
+    width: 14rem;
+    border-radius: 1.5rem;
+    
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    white-space: nowrap;
+}
+
+main section.active {
+    display: block;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}

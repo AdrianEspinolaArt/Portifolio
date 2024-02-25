@@ -1,0 +1,121 @@
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Adrian Espinola</title>
+
+            
+            <!--Fonte-->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!--favicon-->
+            <link rel="icon" href="/assets/favicon/favicon.png" type="image/x-icon">    
+
+            <!--Meu CSS-->
+            <link rel="stylesheet" href="./assets/css/home.css">
+            <link rel="stylesheet" href="./assets/css/reset.css">
+            <link rel="stylesheet" href="./assets/css/main.css">
+            <link rel="stylesheet" href="./assets/css/projetos.css">
+            <link rel="stylesheet" href="./assets/css/contato.css">
+
+            <!--TypeIt-->
+            <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" defer></script>
+
+            <!--Meu JS-->
+            <script defer src="./assets/js/home.js"></script>
+            <script defer src="./assets/js/efeitoDigitacao.js"></script>
+            <script defer src="./assets/js/main.js"></script>
+
+            <script src="https://kit.fontawesome.com/2354c10a5e.js" crossorigin="anonymous"></script>
+        </head>
+        <body>
+
+            <nav>
+                <div class="menu-btn">
+                    <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+                </div>
+            
+                <ul>
+                    <li> <a href="#Home" class="active" onclick="showSection('Home')">Home</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                
+                
+                <section id="Home" class="active">
+                    <div class="apresentacao">
+                        <div class="imagem">
+                            <img src="./assets/img/adrian_espinola.jpeg" alt="imagem-main">
+                        </div>
+                        <div class="info">
+                            <h1>Adrian Espinola</h1>
+                            <h3 class="funcao"><span>Diagramador | Designer | Front-end</span></h3>      
+                        
+                            <div class="buttons">
+                                <div class="btn-linkedin">
+                                    <a href="https://www.linkedin.com/in/adrian-espinola/" target="_blank">
+                                        <i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="btn-linkedin">
+                                    <a href="https://www.behance.net/adrianespnola" target="_blank">
+                                        <i class="fa-brands fa-behance"></i></a>
+                                </div>
+                                <div class="btn-linkedin">
+                                    <a href="https://github.com/AdrianEspinolaArt" target="_blank">
+                                        <i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </div> 
+                          
+                    </div>
+                </div>
+                    
+                    
+                    
+                    <div class="containerProjetos">
+                        <!--Primeiro projeto-->
+                        <div class="card">
+                            <div class="img">
+                                <img src="./assets/img/projetos/calculadora.gif" alt="Calculadora">
+                            </div>
+                            <h2>Calculadora</h2>
+                            <div class="content">
+                                <p>Calculadora utilizando HTML, CSS e JavaScript.
+                                </p>
+                                <a href="https://calcbase.netlify.app/" target="_blank">Visualizar</a>
+                            </div>
+                        </div>
+                        <!--Segundo projeto-->
+                        <div class="card">
+                            <div class="img">
+                                <img src="./assets/img/projetos/checklist.gif" alt="Calculadora">
+                            </div>
+                            <h2>Checklist</h2>
+                            <div class="content">
+                                <p>Checklist utilizando HTML, CSS e JavaScript.
+                                </p>
+                                <a href="https://checklistva.netlify.app/" target="_blank">Visualizar</a>
+                            </div>
+                        </div>
+                        <!--Terceiro projeto-->
+                        <div class="card">
+                            <div class="img">
+                                <img src="./assets/img/projetos/cronometro.gif" alt="Calculadora">
+                            </div>
+                            <h2>Cronômetro</h2>
+                            <div class="content">
+                                <p>Cronômetro utilizando HTML, CSS e JavaScript.
+                                </p>
+                                <a href="https://cronometrova.netlify.app/" target="_blank">Visualizar</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+        
+            </main>
+
+        </body>
+        </html>
+
