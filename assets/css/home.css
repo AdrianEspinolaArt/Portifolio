@@ -53,6 +53,16 @@ nav .menu-btn i{
     border-radius: 5px;
 }
 
+.logo-skills {
+    display: flex; /* Torna o botão um container flex */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; 
+    margin-top: 15px;
+    width: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
 .btn-linkedin:hover {
     background-color: rgba(126, 156, 219, 0.76);
 }
